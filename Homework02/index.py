@@ -13,7 +13,7 @@ def start_game(text_input):
     logi_of_game()
     life()
     
-def logi_of_game():
+def logc_of_game():
     if input < comp_number:
         print("Higher ! ")
         print("Remaning guesses",number_life,'!\n')
