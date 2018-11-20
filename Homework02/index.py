@@ -10,7 +10,7 @@ def start_game(text_input):
     global input
     input = int(text_input)
     print("Your guess was ",input)
-    logi_of_game()
+    logc_of_game()
     life()
     
 def logc_of_game():
