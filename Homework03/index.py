@@ -40,12 +40,15 @@ def convert(val):
     accounts = str(victory)+"/"+str(defeat)
     
 def remov():
-    global message
-    global sec
-    global minute
+    global message,minute,sec
+    global accounts,victory,defeat
     sec = 0
     minute = 0
     message = "0:00.0"
+    
+    accounts = "0/0"
+    victory = 0
+    defeat = 0
     
 
 def draw(canvas):
